@@ -15,7 +15,7 @@ function createIframeElement(contents) {
 
 // Style
 
-createIframeElement('<style src="//tabberanimates.github.io/edgenuity_addons/style.css"></style>');
+createIframeElement('<style>.hacks { background-color: #1d7186; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; font-family: Arial, Helvetica, sans-serif; border-radius: 8px; transition-duration: 0.4s; } .hacks:hover { background-color: #6BC5DB; /* Teal */ color: white; }</style>');
 
 // Button 1
 
