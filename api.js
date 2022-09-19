@@ -23,4 +23,4 @@ createIframeElement(`<button class="hacks" onclick="let array = API.FrameChain.f
 
 // Button 2
 
-createIframeElement(`<button onclick="let array = API.FrameChain.frameStatus; for (var i = 0; i < array.length; i++) { if (array[i] == 'incomplete') { array[i] = 'complete'; } } API.FrameChain.frameStatus = array;">Auto Completion (WIP)</button>`);
+createIframeElement(`<button class="hacks" onclick="let array = API.FrameChain.frameStatus; for (var i = 0; i < array.length; i++) { if (array[i] == 'incomplete') { array[i] = 'complete'; } } API.FrameChain.frameStatus = array;">Auto Completion (WIP)</button>`);
