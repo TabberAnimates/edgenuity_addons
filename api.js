@@ -21,7 +21,3 @@ createIframeElement('<style>.hacks { background-color: #1d7186; border: none; co
 
 createIframeElement(`<button class="hacks" onclick="let array = API.FrameChain.framesStatus; let result = array.splice(array.indexOf('incomplete'), 1, 'complete'); API.FrameChain.framesStatus = array; API.FrameChain.openFrame(API.FrameChain.currentFrame + 1);">Skip Video</button>`);
 
-// Button 2
-
-createIframeElement(`<button class="hacks" onclick="let array = API.FrameChain.framesStatus; for (var i = 0; i < array.length; i++) { if (array[i] == 'incomplete') { array[i] = 'complete'; } } API.FrameChain.frameStatus = array;">Auto Completion (In Development)</button>`);
-
