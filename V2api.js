@@ -2,7 +2,6 @@ var check = 0;
 // Iframe Element Adder
 
 function createIframeElement(contents) {
-    var frame = iframe;
     var value = contents;
     var doc = document.getElementById('stageFrame');
     
